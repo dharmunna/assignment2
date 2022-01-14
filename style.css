@@ -22,3 +22,51 @@ body{
         font-weight: 700;
         border-radius: 50px;
 }
+.center{
+    text-align: center;
+    font-size: 23px;
+    color: rgb(54, 47, 47);
+}
+.equipment{
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 20px;
+}
+.element{
+    background-color: #f8f7f7;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.element .element-picture img{
+    width: 350px;
+    height: 300px;
+}
+.element .element-picture{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.element-name{
+    margin-left: 35px;
+}
+.element-rate{
+    margin-left: 35px;
+}
+.element-info{
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #b4b3b3;
+}
+.header-info{
+    margin-left: 35px;
+    font-size: 13px;
+    color: rgb(54, 47, 47);
+}
