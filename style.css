@@ -1,6 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 .influencer{
     margin-left: 30px;
 }
@@ -22,6 +28,9 @@ body{
         font-weight: 700;
         border-radius: 50px;
 }
+.collection{
+    align-items: center;
+}
 .center{
     text-align: center;
     font-size: 23px;
@@ -37,6 +46,7 @@ body{
 .element{
     background-color: #f8f7f7;
     border-radius: 10px;
+    /* box-shadow: 2px 2px; */
     border: 2px solid white;
 }
 .element .element-picture img{
@@ -44,17 +54,19 @@ body{
     height: 300px;
 }
 .element .element-picture{
-    margin-left: 35px;
+    
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 10px;
 }
 .element-name{
-    margin-left: 35px;
+    margin-left: 20px;
 }
 .element-rate{
-    margin-left: 35px;
+    margin-left: 20px;
 }
 .element-info{
-    margin-left: 35px;
+    margin-left: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,7 +78,13 @@ body{
     color: #b4b3b3;
 }
 .header-info{
-    margin-left: 35px;
+    margin-left: 20px;
     font-size: 13px;
     color: rgb(54, 47, 47);
+}
+.see-more{
+    text-decoration: none;
+    color: rgb(212, 38, 73);
+    ruby-align: left;
+
 }
