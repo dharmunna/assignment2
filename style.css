@@ -88,3 +88,19 @@ main{
     float: right;
 
 }
+
+.foot{
+    
+    text-align: center;
+    position: bottom;
+	background-color: rgb(16, 6, 31);
+	width: 100%;
+	color: white;
+}
+footer p{
+    text-align: center;
+	
+	left: 48%;
+	bottom: 200px;
+	color: white;
+}
