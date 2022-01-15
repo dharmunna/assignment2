@@ -28,6 +28,14 @@ main{
         font-weight: 700;
         border-radius: 50px;
 }
+.button-class1{
+    text-decoration: none;
+    background-color: rgb(212, 38, 73);
+    padding:5px 20px;
+    color:white;
+    font-weight: 700;
+    border-radius: 0;
+}
 .collection{
     align-items: center;
 }
@@ -103,4 +111,23 @@ footer p{
 	left: 48%;
 	bottom: 200px;
 	color: white;
+}
+@media only screen and (max-width:688px) {
+    .flex-container{
+        width: 100%;
+ }
+    .element, .equipment{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+@media only screen and (min-width:688px) and (max-width:992px)
+{
+    .flex-container{
+        width: 100%;
+    }
+    .element, .equipment{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
