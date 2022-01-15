@@ -85,6 +85,6 @@ main{
 .see-more{
     text-decoration: none;
     color: rgb(212, 38, 73);
-    ruby-align: left;
+    float: right;
 
 }
